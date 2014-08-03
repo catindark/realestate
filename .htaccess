@@ -1,2 +1,2 @@
 RewriteEngine on
-RewriteRule ^(.*)\.[?][a-f0-9]{32}$ $1 [L]
+RewriteRule ^(.*)[?][a-f0-9]{32}$ $1 [L]
